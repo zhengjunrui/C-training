@@ -1,1 +1,0 @@
-/home/zhengjunrui/stockindex/CMakeFiles/stock.dir
