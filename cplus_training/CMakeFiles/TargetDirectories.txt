@@ -1,1 +1,2 @@
-/home/zhengjunrui/cplus_training/CMakeFiles/1.dir
+/home/zhengjunrui/cplus_training/C-training/cplus_training/CMakeFiles/1.dir
+/home/zhengjunrui/cplus_training/C-training/cplus_training/CMakeFiles/51.dir

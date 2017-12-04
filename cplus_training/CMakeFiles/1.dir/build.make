@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zhengjunrui/cplus_training
+CMAKE_SOURCE_DIR = /home/zhengjunrui/cplus_training/C-training/cplus_training
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zhengjunrui/cplus_training
+CMAKE_BINARY_DIR = /home/zhengjunrui/cplus_training/C-training/cplus_training
 
 # Include any dependencies generated for this target.
 include CMakeFiles/1.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/1.dir/flags.make
 
 CMakeFiles/1.dir/1.cpp.o: CMakeFiles/1.dir/flags.make
 CMakeFiles/1.dir/1.cpp.o: 1.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/zhengjunrui/cplus_training/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/zhengjunrui/cplus_training/C-training/cplus_training/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/1.dir/1.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/1.dir/1.cpp.o -c /home/zhengjunrui/cplus_training/1.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/1.dir/1.cpp.o -c /home/zhengjunrui/cplus_training/C-training/cplus_training/1.cpp
 
 CMakeFiles/1.dir/1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/1.dir/1.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/zhengjunrui/cplus_training/1.cpp > CMakeFiles/1.dir/1.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/zhengjunrui/cplus_training/C-training/cplus_training/1.cpp > CMakeFiles/1.dir/1.cpp.i
 
 CMakeFiles/1.dir/1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/1.dir/1.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/zhengjunrui/cplus_training/1.cpp -o CMakeFiles/1.dir/1.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/zhengjunrui/cplus_training/C-training/cplus_training/1.cpp -o CMakeFiles/1.dir/1.cpp.s
 
 CMakeFiles/1.dir/1.cpp.o.requires:
 .PHONY : CMakeFiles/1.dir/1.cpp.o.requires
@@ -100,6 +100,6 @@ CMakeFiles/1.dir/clean:
 .PHONY : CMakeFiles/1.dir/clean
 
 CMakeFiles/1.dir/depend:
-	cd /home/zhengjunrui/cplus_training && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zhengjunrui/cplus_training /home/zhengjunrui/cplus_training /home/zhengjunrui/cplus_training /home/zhengjunrui/cplus_training /home/zhengjunrui/cplus_training/CMakeFiles/1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zhengjunrui/cplus_training/C-training/cplus_training && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zhengjunrui/cplus_training/C-training/cplus_training /home/zhengjunrui/cplus_training/C-training/cplus_training /home/zhengjunrui/cplus_training/C-training/cplus_training /home/zhengjunrui/cplus_training/C-training/cplus_training /home/zhengjunrui/cplus_training/C-training/cplus_training/CMakeFiles/1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/1.dir/depend
 

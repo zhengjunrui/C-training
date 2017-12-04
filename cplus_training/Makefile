@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zhengjunrui/cplus_training
+CMAKE_SOURCE_DIR = /home/zhengjunrui/cplus_training/C-training/cplus_training
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zhengjunrui/cplus_training
+CMAKE_BINARY_DIR = /home/zhengjunrui/cplus_training/C-training/cplus_training
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,9 +72,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhengjunrui/cplus_training/CMakeFiles /home/zhengjunrui/cplus_training/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhengjunrui/cplus_training/C-training/cplus_training/CMakeFiles /home/zhengjunrui/cplus_training/C-training/cplus_training/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhengjunrui/cplus_training/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhengjunrui/cplus_training/C-training/cplus_training/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -114,6 +114,19 @@ depend:
 	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/build
 .PHONY : 1/fast
 
+#=============================================================================
+# Target rules for targets named 51
+
+# Build rule for target.
+51: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 51
+.PHONY : 51
+
+# fast build rule for target.
+51/fast:
+	$(MAKE) -f CMakeFiles/51.dir/build.make CMakeFiles/51.dir/build
+.PHONY : 51/fast
+
 1.o: 1.cpp.o
 .PHONY : 1.o
 
@@ -138,6 +151,30 @@ depend:
 	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/1.cpp.s
 .PHONY : 1.cpp.s
 
+51.o: 51.cpp.o
+.PHONY : 51.o
+
+# target to build an object file
+51.cpp.o:
+	$(MAKE) -f CMakeFiles/51.dir/build.make CMakeFiles/51.dir/51.cpp.o
+.PHONY : 51.cpp.o
+
+51.i: 51.cpp.i
+.PHONY : 51.i
+
+# target to preprocess a source file
+51.cpp.i:
+	$(MAKE) -f CMakeFiles/51.dir/build.make CMakeFiles/51.dir/51.cpp.i
+.PHONY : 51.cpp.i
+
+51.s: 51.cpp.s
+.PHONY : 51.s
+
+# target to generate assembly for a file
+51.cpp.s:
+	$(MAKE) -f CMakeFiles/51.dir/build.make CMakeFiles/51.dir/51.cpp.s
+.PHONY : 51.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -145,11 +182,15 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... 1"
+	@echo "... 51"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 1.o"
 	@echo "... 1.i"
 	@echo "... 1.s"
+	@echo "... 51.o"
+	@echo "... 51.i"
+	@echo "... 51.s"
 .PHONY : help
 
 

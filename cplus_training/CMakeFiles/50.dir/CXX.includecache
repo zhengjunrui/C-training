@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/zhengjunrui/cplus_training/C-training/cplus_training/1.cpp
+/home/zhengjunrui/cplus_training/C-training/cplus_training/50.cpp
+stdio.h
+-
 iostream
 -
 
