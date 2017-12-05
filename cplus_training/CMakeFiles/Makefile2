@@ -126,6 +126,111 @@ clean: CMakeFiles/51.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/54.dir
+
+# All Build rule for target.
+CMakeFiles/54.dir/all:
+	$(MAKE) -f CMakeFiles/54.dir/build.make CMakeFiles/54.dir/depend
+	$(MAKE) -f CMakeFiles/54.dir/build.make CMakeFiles/54.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/zhengjunrui/cplus_training/C-training/cplus_training/CMakeFiles  3
+	@echo "Built target 54"
+.PHONY : CMakeFiles/54.dir/all
+
+# Include target in all.
+all: CMakeFiles/54.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/54.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhengjunrui/cplus_training/C-training/cplus_training/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/54.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhengjunrui/cplus_training/C-training/cplus_training/CMakeFiles 0
+.PHONY : CMakeFiles/54.dir/rule
+
+# Convenience name for target.
+54: CMakeFiles/54.dir/rule
+.PHONY : 54
+
+# clean rule for target.
+CMakeFiles/54.dir/clean:
+	$(MAKE) -f CMakeFiles/54.dir/build.make CMakeFiles/54.dir/clean
+.PHONY : CMakeFiles/54.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/54.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/point.dir
+
+# All Build rule for target.
+CMakeFiles/point.dir/all:
+	$(MAKE) -f CMakeFiles/point.dir/build.make CMakeFiles/point.dir/depend
+	$(MAKE) -f CMakeFiles/point.dir/build.make CMakeFiles/point.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/zhengjunrui/cplus_training/C-training/cplus_training/CMakeFiles  4
+	@echo "Built target point"
+.PHONY : CMakeFiles/point.dir/all
+
+# Include target in all.
+all: CMakeFiles/point.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/point.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhengjunrui/cplus_training/C-training/cplus_training/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/point.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhengjunrui/cplus_training/C-training/cplus_training/CMakeFiles 0
+.PHONY : CMakeFiles/point.dir/rule
+
+# Convenience name for target.
+point: CMakeFiles/point.dir/rule
+.PHONY : point
+
+# clean rule for target.
+CMakeFiles/point.dir/clean:
+	$(MAKE) -f CMakeFiles/point.dir/build.make CMakeFiles/point.dir/clean
+.PHONY : CMakeFiles/point.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/point.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/yinyong.dir
+
+# All Build rule for target.
+CMakeFiles/yinyong.dir/all:
+	$(MAKE) -f CMakeFiles/yinyong.dir/build.make CMakeFiles/yinyong.dir/depend
+	$(MAKE) -f CMakeFiles/yinyong.dir/build.make CMakeFiles/yinyong.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/zhengjunrui/cplus_training/C-training/cplus_training/CMakeFiles  5
+	@echo "Built target yinyong"
+.PHONY : CMakeFiles/yinyong.dir/all
+
+# Include target in all.
+all: CMakeFiles/yinyong.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/yinyong.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhengjunrui/cplus_training/C-training/cplus_training/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/yinyong.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhengjunrui/cplus_training/C-training/cplus_training/CMakeFiles 0
+.PHONY : CMakeFiles/yinyong.dir/rule
+
+# Convenience name for target.
+yinyong: CMakeFiles/yinyong.dir/rule
+.PHONY : yinyong
+
+# clean rule for target.
+CMakeFiles/yinyong.dir/clean:
+	$(MAKE) -f CMakeFiles/yinyong.dir/build.make CMakeFiles/yinyong.dir/clean
+.PHONY : CMakeFiles/yinyong.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/yinyong.dir/clean
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

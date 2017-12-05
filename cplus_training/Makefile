@@ -127,6 +127,45 @@ depend:
 	$(MAKE) -f CMakeFiles/51.dir/build.make CMakeFiles/51.dir/build
 .PHONY : 51/fast
 
+#=============================================================================
+# Target rules for targets named 54
+
+# Build rule for target.
+54: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 54
+.PHONY : 54
+
+# fast build rule for target.
+54/fast:
+	$(MAKE) -f CMakeFiles/54.dir/build.make CMakeFiles/54.dir/build
+.PHONY : 54/fast
+
+#=============================================================================
+# Target rules for targets named point
+
+# Build rule for target.
+point: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 point
+.PHONY : point
+
+# fast build rule for target.
+point/fast:
+	$(MAKE) -f CMakeFiles/point.dir/build.make CMakeFiles/point.dir/build
+.PHONY : point/fast
+
+#=============================================================================
+# Target rules for targets named yinyong
+
+# Build rule for target.
+yinyong: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 yinyong
+.PHONY : yinyong
+
+# fast build rule for target.
+yinyong/fast:
+	$(MAKE) -f CMakeFiles/yinyong.dir/build.make CMakeFiles/yinyong.dir/build
+.PHONY : yinyong/fast
+
 1.o: 1.cpp.o
 .PHONY : 1.o
 
@@ -175,6 +214,78 @@ depend:
 	$(MAKE) -f CMakeFiles/51.dir/build.make CMakeFiles/51.dir/51.cpp.s
 .PHONY : 51.cpp.s
 
+54.o: 54.cpp.o
+.PHONY : 54.o
+
+# target to build an object file
+54.cpp.o:
+	$(MAKE) -f CMakeFiles/54.dir/build.make CMakeFiles/54.dir/54.cpp.o
+.PHONY : 54.cpp.o
+
+54.i: 54.cpp.i
+.PHONY : 54.i
+
+# target to preprocess a source file
+54.cpp.i:
+	$(MAKE) -f CMakeFiles/54.dir/build.make CMakeFiles/54.dir/54.cpp.i
+.PHONY : 54.cpp.i
+
+54.s: 54.cpp.s
+.PHONY : 54.s
+
+# target to generate assembly for a file
+54.cpp.s:
+	$(MAKE) -f CMakeFiles/54.dir/build.make CMakeFiles/54.dir/54.cpp.s
+.PHONY : 54.cpp.s
+
+point.o: point.cpp.o
+.PHONY : point.o
+
+# target to build an object file
+point.cpp.o:
+	$(MAKE) -f CMakeFiles/point.dir/build.make CMakeFiles/point.dir/point.cpp.o
+.PHONY : point.cpp.o
+
+point.i: point.cpp.i
+.PHONY : point.i
+
+# target to preprocess a source file
+point.cpp.i:
+	$(MAKE) -f CMakeFiles/point.dir/build.make CMakeFiles/point.dir/point.cpp.i
+.PHONY : point.cpp.i
+
+point.s: point.cpp.s
+.PHONY : point.s
+
+# target to generate assembly for a file
+point.cpp.s:
+	$(MAKE) -f CMakeFiles/point.dir/build.make CMakeFiles/point.dir/point.cpp.s
+.PHONY : point.cpp.s
+
+yinyong.o: yinyong.cpp.o
+.PHONY : yinyong.o
+
+# target to build an object file
+yinyong.cpp.o:
+	$(MAKE) -f CMakeFiles/yinyong.dir/build.make CMakeFiles/yinyong.dir/yinyong.cpp.o
+.PHONY : yinyong.cpp.o
+
+yinyong.i: yinyong.cpp.i
+.PHONY : yinyong.i
+
+# target to preprocess a source file
+yinyong.cpp.i:
+	$(MAKE) -f CMakeFiles/yinyong.dir/build.make CMakeFiles/yinyong.dir/yinyong.cpp.i
+.PHONY : yinyong.cpp.i
+
+yinyong.s: yinyong.cpp.s
+.PHONY : yinyong.s
+
+# target to generate assembly for a file
+yinyong.cpp.s:
+	$(MAKE) -f CMakeFiles/yinyong.dir/build.make CMakeFiles/yinyong.dir/yinyong.cpp.s
+.PHONY : yinyong.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -183,14 +294,26 @@ help:
 	@echo "... depend"
 	@echo "... 1"
 	@echo "... 51"
+	@echo "... 54"
 	@echo "... edit_cache"
+	@echo "... point"
 	@echo "... rebuild_cache"
+	@echo "... yinyong"
 	@echo "... 1.o"
 	@echo "... 1.i"
 	@echo "... 1.s"
 	@echo "... 51.o"
 	@echo "... 51.i"
 	@echo "... 51.s"
+	@echo "... 54.o"
+	@echo "... 54.i"
+	@echo "... 54.s"
+	@echo "... point.o"
+	@echo "... point.i"
+	@echo "... point.s"
+	@echo "... yinyong.o"
+	@echo "... yinyong.i"
+	@echo "... yinyong.s"
 .PHONY : help
 
 
