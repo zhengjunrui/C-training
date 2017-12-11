@@ -56,38 +56,38 @@ CMAKE_SOURCE_DIR = /home/linuxgood/cplus/cplus_training
 CMAKE_BINARY_DIR = /home/linuxgood/cplus/cplus_training
 
 #=============================================================================
-# Target rules for target CMakeFiles/70.dir
+# Target rules for target CMakeFiles/71.dir
 
 # All Build rule for target.
-CMakeFiles/70.dir/all:
-	$(MAKE) -f CMakeFiles/70.dir/build.make CMakeFiles/70.dir/depend
-	$(MAKE) -f CMakeFiles/70.dir/build.make CMakeFiles/70.dir/build
+CMakeFiles/71.dir/all:
+	$(MAKE) -f CMakeFiles/71.dir/build.make CMakeFiles/71.dir/depend
+	$(MAKE) -f CMakeFiles/71.dir/build.make CMakeFiles/71.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/linuxgood/cplus/cplus_training/CMakeFiles  1
-	@echo "Built target 70"
-.PHONY : CMakeFiles/70.dir/all
+	@echo "Built target 71"
+.PHONY : CMakeFiles/71.dir/all
 
 # Include target in all.
-all: CMakeFiles/70.dir/all
+all: CMakeFiles/71.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/70.dir/rule: cmake_check_build_system
+CMakeFiles/71.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/linuxgood/cplus/cplus_training/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/70.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/71.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/linuxgood/cplus/cplus_training/CMakeFiles 0
-.PHONY : CMakeFiles/70.dir/rule
+.PHONY : CMakeFiles/71.dir/rule
 
 # Convenience name for target.
-70: CMakeFiles/70.dir/rule
-.PHONY : 70
+71: CMakeFiles/71.dir/rule
+.PHONY : 71
 
 # clean rule for target.
-CMakeFiles/70.dir/clean:
-	$(MAKE) -f CMakeFiles/70.dir/build.make CMakeFiles/70.dir/clean
-.PHONY : CMakeFiles/70.dir/clean
+CMakeFiles/71.dir/clean:
+	$(MAKE) -f CMakeFiles/71.dir/build.make CMakeFiles/71.dir/clean
+.PHONY : CMakeFiles/71.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/70.dir/clean
+clean: CMakeFiles/71.dir/clean
 .PHONY : clean
 
 #=============================================================================
