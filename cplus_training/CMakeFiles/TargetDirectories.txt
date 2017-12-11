@@ -1,5 +1,1 @@
-/home/zhengjunrui/cplus_training/C-training/cplus_training/CMakeFiles/1.dir
-/home/zhengjunrui/cplus_training/C-training/cplus_training/CMakeFiles/51.dir
-/home/zhengjunrui/cplus_training/C-training/cplus_training/CMakeFiles/68.dir
-/home/zhengjunrui/cplus_training/C-training/cplus_training/CMakeFiles/point.dir
-/home/zhengjunrui/cplus_training/C-training/cplus_training/CMakeFiles/yinyong.dir
+/home/linuxgood/cplus/cplus_training/CMakeFiles/70.dir

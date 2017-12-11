@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zhengjunrui/cplus_training/C-training/cplus_training/68.cpp" "/home/zhengjunrui/cplus_training/C-training/cplus_training/CMakeFiles/68.dir/68.cpp.o"
+  "/home/linuxgood/cplus/cplus_training/70.cpp" "/home/linuxgood/cplus/cplus_training/CMakeFiles/70.dir/70.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,1 +1,0 @@
-/usr/bin/c++       CMakeFiles/yinyong.dir/yinyong.cpp.o  -o yinyong -rdynamic 

@@ -1,5 +1,1 @@
-add_executable(1 1.cpp)
-add_executable(51 51.cpp)
-add_executable(point point.cpp)
-add_executable(yinyong yinyong.cpp)
-add_executable(68 68.cpp)
+add_executable(70 70.cpp)

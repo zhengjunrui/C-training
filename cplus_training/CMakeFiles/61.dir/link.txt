@@ -1,1 +1,0 @@
-/usr/bin/c++       CMakeFiles/61.dir/61.cpp.o  -o 61 -rdynamic 

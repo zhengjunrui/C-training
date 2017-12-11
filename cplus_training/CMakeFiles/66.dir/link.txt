@@ -1,1 +1,0 @@
-/usr/bin/c++       CMakeFiles/66.dir/66.cpp.o  -o 66 -rdynamic 

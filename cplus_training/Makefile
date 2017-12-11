@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zhengjunrui/cplus_training/C-training/cplus_training
+CMAKE_SOURCE_DIR = /home/linuxgood/cplus/cplus_training
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zhengjunrui/cplus_training/C-training/cplus_training
+CMAKE_BINARY_DIR = /home/linuxgood/cplus/cplus_training
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,9 +72,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhengjunrui/cplus_training/C-training/cplus_training/CMakeFiles /home/zhengjunrui/cplus_training/C-training/cplus_training/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/linuxgood/cplus/cplus_training/CMakeFiles /home/linuxgood/cplus/cplus_training/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhengjunrui/cplus_training/C-training/cplus_training/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/linuxgood/cplus/cplus_training/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -102,189 +102,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 1
+# Target rules for targets named 70
 
 # Build rule for target.
-1 : cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 1
-.PHONY : 1
+70: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 70
+.PHONY : 70
 
 # fast build rule for target.
-1/fast:
-	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/build
-.PHONY : 1/fast
+70/fast:
+	$(MAKE) -f CMakeFiles/70.dir/build.make CMakeFiles/70.dir/build
+.PHONY : 70/fast
 
-#=============================================================================
-# Target rules for targets named 51
-
-# Build rule for target.
-51: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 51
-.PHONY : 51
-
-# fast build rule for target.
-51/fast:
-	$(MAKE) -f CMakeFiles/51.dir/build.make CMakeFiles/51.dir/build
-.PHONY : 51/fast
-
-#=============================================================================
-# Target rules for targets named 68
-
-# Build rule for target.
-68: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 68
-.PHONY : 68
-
-# fast build rule for target.
-68/fast:
-	$(MAKE) -f CMakeFiles/68.dir/build.make CMakeFiles/68.dir/build
-.PHONY : 68/fast
-
-#=============================================================================
-# Target rules for targets named point
-
-# Build rule for target.
-point: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 point
-.PHONY : point
-
-# fast build rule for target.
-point/fast:
-	$(MAKE) -f CMakeFiles/point.dir/build.make CMakeFiles/point.dir/build
-.PHONY : point/fast
-
-#=============================================================================
-# Target rules for targets named yinyong
-
-# Build rule for target.
-yinyong: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 yinyong
-.PHONY : yinyong
-
-# fast build rule for target.
-yinyong/fast:
-	$(MAKE) -f CMakeFiles/yinyong.dir/build.make CMakeFiles/yinyong.dir/build
-.PHONY : yinyong/fast
-
-1.o: 1.cpp.o
-.PHONY : 1.o
+70.o: 70.cpp.o
+.PHONY : 70.o
 
 # target to build an object file
-1.cpp.o:
-	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/1.cpp.o
-.PHONY : 1.cpp.o
+70.cpp.o:
+	$(MAKE) -f CMakeFiles/70.dir/build.make CMakeFiles/70.dir/70.cpp.o
+.PHONY : 70.cpp.o
 
-1.i: 1.cpp.i
-.PHONY : 1.i
-
-# target to preprocess a source file
-1.cpp.i:
-	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/1.cpp.i
-.PHONY : 1.cpp.i
-
-1.s: 1.cpp.s
-.PHONY : 1.s
-
-# target to generate assembly for a file
-1.cpp.s:
-	$(MAKE) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/1.cpp.s
-.PHONY : 1.cpp.s
-
-51.o: 51.cpp.o
-.PHONY : 51.o
-
-# target to build an object file
-51.cpp.o:
-	$(MAKE) -f CMakeFiles/51.dir/build.make CMakeFiles/51.dir/51.cpp.o
-.PHONY : 51.cpp.o
-
-51.i: 51.cpp.i
-.PHONY : 51.i
+70.i: 70.cpp.i
+.PHONY : 70.i
 
 # target to preprocess a source file
-51.cpp.i:
-	$(MAKE) -f CMakeFiles/51.dir/build.make CMakeFiles/51.dir/51.cpp.i
-.PHONY : 51.cpp.i
+70.cpp.i:
+	$(MAKE) -f CMakeFiles/70.dir/build.make CMakeFiles/70.dir/70.cpp.i
+.PHONY : 70.cpp.i
 
-51.s: 51.cpp.s
-.PHONY : 51.s
-
-# target to generate assembly for a file
-51.cpp.s:
-	$(MAKE) -f CMakeFiles/51.dir/build.make CMakeFiles/51.dir/51.cpp.s
-.PHONY : 51.cpp.s
-
-68.o: 68.cpp.o
-.PHONY : 68.o
-
-# target to build an object file
-68.cpp.o:
-	$(MAKE) -f CMakeFiles/68.dir/build.make CMakeFiles/68.dir/68.cpp.o
-.PHONY : 68.cpp.o
-
-68.i: 68.cpp.i
-.PHONY : 68.i
-
-# target to preprocess a source file
-68.cpp.i:
-	$(MAKE) -f CMakeFiles/68.dir/build.make CMakeFiles/68.dir/68.cpp.i
-.PHONY : 68.cpp.i
-
-68.s: 68.cpp.s
-.PHONY : 68.s
+70.s: 70.cpp.s
+.PHONY : 70.s
 
 # target to generate assembly for a file
-68.cpp.s:
-	$(MAKE) -f CMakeFiles/68.dir/build.make CMakeFiles/68.dir/68.cpp.s
-.PHONY : 68.cpp.s
-
-point.o: point.cpp.o
-.PHONY : point.o
-
-# target to build an object file
-point.cpp.o:
-	$(MAKE) -f CMakeFiles/point.dir/build.make CMakeFiles/point.dir/point.cpp.o
-.PHONY : point.cpp.o
-
-point.i: point.cpp.i
-.PHONY : point.i
-
-# target to preprocess a source file
-point.cpp.i:
-	$(MAKE) -f CMakeFiles/point.dir/build.make CMakeFiles/point.dir/point.cpp.i
-.PHONY : point.cpp.i
-
-point.s: point.cpp.s
-.PHONY : point.s
-
-# target to generate assembly for a file
-point.cpp.s:
-	$(MAKE) -f CMakeFiles/point.dir/build.make CMakeFiles/point.dir/point.cpp.s
-.PHONY : point.cpp.s
-
-yinyong.o: yinyong.cpp.o
-.PHONY : yinyong.o
-
-# target to build an object file
-yinyong.cpp.o:
-	$(MAKE) -f CMakeFiles/yinyong.dir/build.make CMakeFiles/yinyong.dir/yinyong.cpp.o
-.PHONY : yinyong.cpp.o
-
-yinyong.i: yinyong.cpp.i
-.PHONY : yinyong.i
-
-# target to preprocess a source file
-yinyong.cpp.i:
-	$(MAKE) -f CMakeFiles/yinyong.dir/build.make CMakeFiles/yinyong.dir/yinyong.cpp.i
-.PHONY : yinyong.cpp.i
-
-yinyong.s: yinyong.cpp.s
-.PHONY : yinyong.s
-
-# target to generate assembly for a file
-yinyong.cpp.s:
-	$(MAKE) -f CMakeFiles/yinyong.dir/build.make CMakeFiles/yinyong.dir/yinyong.cpp.s
-.PHONY : yinyong.cpp.s
+70.cpp.s:
+	$(MAKE) -f CMakeFiles/70.dir/build.make CMakeFiles/70.dir/70.cpp.s
+.PHONY : 70.cpp.s
 
 # Help Target
 help:
@@ -292,28 +144,12 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... 1"
-	@echo "... 51"
-	@echo "... 68"
+	@echo "... 70"
 	@echo "... edit_cache"
-	@echo "... point"
 	@echo "... rebuild_cache"
-	@echo "... yinyong"
-	@echo "... 1.o"
-	@echo "... 1.i"
-	@echo "... 1.s"
-	@echo "... 51.o"
-	@echo "... 51.i"
-	@echo "... 51.s"
-	@echo "... 68.o"
-	@echo "... 68.i"
-	@echo "... 68.s"
-	@echo "... point.o"
-	@echo "... point.i"
-	@echo "... point.s"
-	@echo "... yinyong.o"
-	@echo "... yinyong.i"
-	@echo "... yinyong.s"
+	@echo "... 70.o"
+	@echo "... 70.i"
+	@echo "... 70.s"
 .PHONY : help
 
 

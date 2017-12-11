@@ -1,1 +1,0 @@
-/usr/bin/c++       CMakeFiles/weicha.dir/weicha.cpp.o  -o weicha -rdynamic 
