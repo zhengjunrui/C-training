@@ -1,1 +1,1 @@
-add_executable(73 73.cpp)
+add_executable(74 74.cpp)
