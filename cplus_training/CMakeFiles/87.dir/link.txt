@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/87.dir/87.cpp.o  -o 87 -rdynamic 

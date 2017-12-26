@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/86.dir/86.cpp.o  -o 86 -rdynamic 

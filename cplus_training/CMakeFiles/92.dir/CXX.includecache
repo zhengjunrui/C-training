@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/linuxgood/cplus/cplus_training/92.cpp
+time.h
+-
+stdlib.h
+-
+stdio.h
+-
+iostream
+-
+time.h
+-
+stdlib.h
+-
+stdio.h
+-
+
